@@ -3,6 +3,7 @@ package com.epam;
 public class CalcServiceImpl implements CalcService {
     @Override
     public int add(int a, int b) {
+        System.out.println("try");
         return a + b;
     }
 
