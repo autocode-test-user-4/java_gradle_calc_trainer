@@ -18,7 +18,8 @@ public class CalcServiceImpl implements CalcService {
 
     @Override
     public int divide(int a, int b) {
-        throw new RuntimeException();
+        bla();
+        return a;
     }
 
     public void bla() {
