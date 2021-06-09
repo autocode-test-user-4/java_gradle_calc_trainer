@@ -18,6 +18,6 @@ public class CalcServiceImpl implements CalcService {
 
     @Override
     public int divide(int a, int b) {
-        return a;
+        return a;;
     }
 }
