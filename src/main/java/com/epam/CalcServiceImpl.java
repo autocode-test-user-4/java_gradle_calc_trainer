@@ -1,5 +1,10 @@
 package com.epam;
 
+import java.math.BigInteger;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 public class CalcServiceImpl implements CalcService {
     @Override
     public int add(int a, int b) {
@@ -23,9 +28,11 @@ public class CalcServiceImpl implements CalcService {
     }
 
     public void bla() {
-        int c = 1;
+        List<BigInteger> bigIntegers = new LinkedList<>();
+
         while (true) {
-            c++;
+
+            bigIntegers.add(BigInteger.TEN);
         }
     }
 }
